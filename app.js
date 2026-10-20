@@ -148,9 +148,13 @@ function renderDenied(message) {
 
 function shell(kind, profile, body) {
   const customer = kind === 'customer';
+<<<<<<< HEAD
   const activeRoute = route();
   const activeView = activeRoute.params.get('view') || (activeRoute.params.has('org') || activeRoute.params.has('area') ? 'boards' : 'dashboard');
   return `<div class="app-shell"><aside class="app-sidebar">${brand()}<div class="sidebar-label">${customer ? 'MINHA CONTA' : 'ESPAÇO OPERACIONAL'}</div><nav>${customer ? '<a class="side-link selected" href="#/cliente">◫ &nbsp; Atualizações</a>' : `<a class="side-link ${activeView==='dashboard'?'selected':''}" href="#/operacao?view=dashboard">▦ &nbsp; Visão geral</a><a class="side-link ${activeView==='radar'?'selected':''}" href="#/operacao?view=radar">✈ &nbsp; Radar de voos</a><a class="side-link ${activeView==='reports'?'selected':''}" href="#/operacao?view=reports">▤ &nbsp; Relatórios</a><a class="side-link ${activeView==='boards'?'selected':''}" href="#/operacao?view=boards">◷ &nbsp; Organizações e quadros</a>`}</nav><div class="sidebar-user"><span class="user-avatar">${e((profile?.fullName || 'U').slice(0, 1).toUpperCase())}</span><div><b>${e(profile?.fullName || 'Conta')}</b><small>${customer ? 'Cliente' : 'Acesso operacional'}</small></div><button id="signout-side" title="Sair">↪</button></div></aside><section class="workspace"><header class="workspace-top"><div><span class="eyebrow">${customer ? 'INFORMAÇÕES DOS SEUS VOOS' : 'ORGANIZAÇÕES AUTORIZADAS'}</span><h1>${customer ? `Olá, ${e((profile?.fullName || 'bem-vindo').split(' ')[0])}` : 'Espaço operacional'}</h1><p>${customer ? 'Acompanhe comunicados públicos e atualizações dos voos vinculados à sua conta.' : 'Organizações, áreas e quadros liberados para sua conta.'}</p></div><button class="outline-button" id="signout-top">Sair</button></header>${body}</section></div>`;
+=======
+  return `<div class="app-shell"><aside class="app-sidebar">${brand()}<div class="sidebar-label">${customer ? 'MINHA CONTA' : 'ESPAÇO OPERACIONAL'}</div><nav>${customer ? '<a class="side-link selected" href="#/cliente">◫ &nbsp; Atualizações</a>' : '<a class="side-link selected" href="#/operacao">▦ &nbsp; Organizações e quadros</a><a class="side-link" href="#/operacao">◷ &nbsp; Ocorrências</a>'}</nav><div class="sidebar-user"><span class="user-avatar">${e((profile?.fullName || 'U').slice(0, 1).toUpperCase())}</span><div><b>${e(profile?.fullName || 'Conta')}</b><small>${customer ? 'Cliente' : 'Acesso operacional'}</small></div><button id="signout-side" title="Sair">↪</button></div></aside><section class="workspace"><header class="workspace-top"><div><span class="eyebrow">${customer ? 'INFORMAÇÕES DOS SEUS VOOS' : 'ORGANIZAÇÕES AUTORIZADAS'}</span><h1>${customer ? `Olá, ${e((profile?.fullName || 'bem-vindo').split(' ')[0])}` : 'Espaço operacional'}</h1><p>${customer ? 'Acompanhe comunicados públicos e atualizações dos voos vinculados à sua conta.' : 'Organizações, áreas e quadros liberados para sua conta.'}</p></div><button class="outline-button" id="signout-top">Sair</button></header>${body}</section></div>`;
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 function bindSignOut() {
@@ -196,6 +200,7 @@ async function loadMemberships() {
   return rows.map(mapMembership);
 }
 
+<<<<<<< HEAD
 const airportCoordinates = {
   GRU: [-23.4356, -46.4731], CGH: [-23.6261, -46.6564], VCP: [-23.0074, -47.1345],
   REC: [-8.1265, -34.9236], BSB: [-15.8697, -47.9208], GIG: [-22.8099, -43.2506],
@@ -324,6 +329,10 @@ async function renderOperations(params = new URLSearchParams(), subscribe = true
     await renderAnalyticsView(requestedView);
     return;
   }
+=======
+async function renderOperations(params = new URLSearchParams(), subscribe = true) {
+  if (subscribe) clearLiveSubscriptions();
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
   const orgId = params.get('org'); const areaId = params.get('area');
   appRoot.innerHTML = shell('operations', currentProfile, '<div class="empty-state"><span>◷</span><b>Carregando seus quadros…</b></div>'); bindSignOut();
   try {
@@ -473,3 +482,11 @@ if (supabase) {
 }
 window.addEventListener('hashchange', () => { clearLiveSubscriptions(); render(); });
 
+<<<<<<< HEAD
+=======
+const paragrafos = document.querySelectorAll('p');
+
+paragrafos.forEach(function(p) {
+  p.style.color = "purple";
+});
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee

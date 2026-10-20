@@ -7,7 +7,10 @@ background: #f4f8fb;
 font-synthesis: none;
 text-rendering: optimizeLegibility;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 --navy: #003B70;
 --blue: #0072CE;
 --blue2: #005DAA;
@@ -53,10 +56,13 @@ text-decoration: none;
 display: none !important;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 MARCA
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .brand {
 display: inline-flex;
 align-items: center;
@@ -66,10 +72,13 @@ font: 800 18px Manrope, sans-serif;
 white-space: nowrap;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 NAVEGAÇÃO PÚBLICA
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-nav {
 height: 74px;
 max-width: 1240px;
@@ -109,10 +118,13 @@ font-size: 15px;
 background:#003B70;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 FOOTER
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-footer {
 max-width: 1240px;
 margin: auto;
@@ -135,10 +147,13 @@ color: #9BAAB6;
 font-size: 15px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 TEXTOS DE DESTAQUE
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .eyebrow {
 font-size: 90px;
 letter-spacing: 1.35px;
@@ -146,10 +161,13 @@ color: var(--blue);
 font-weight: 700;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 HERO
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero {
 max-width: 1240px;
 min-height: 530px;
@@ -189,10 +207,13 @@ margin-top: 28px;
 align-items: center;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 BOTÕES
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .button {
 display: inline-flex;
 justify-content: center;
@@ -249,10 +270,13 @@ font-size: 15px;
 margin-top: 17px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 ILUSTRAÇÃO / CARD
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero-art {
 min-height: 400px;
 display: grid;
@@ -399,10 +423,13 @@ font-weight: 700;
 box-shadow: 0 7px 20px rgba(0, 59, 112, .10);
 }
 
+<<<<<<< HEAD
 /* =========================================================
 COMO FUNCIONA
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .how {
 max-width: 1240px;
 margin: auto;
@@ -456,10 +483,13 @@ color: #8292A0;
 margin: 0;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 LOGIN / AUTENTICAÇÃO
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .auth-wrap {
 min-height: calc(100vh - 130px);
 display: grid;
@@ -616,10 +646,13 @@ text-align: center;
 margin-top: 17px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 SISTEMA / DASHBOARD
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell {
 min-height: 100vh;
 background: #F4F8FB;
@@ -790,10 +823,13 @@ color: #8A99A7;
 margin: 5px 0 0;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 CARDS / PAINÉIS
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .panel {
 background: #fff;
 border: 1px solid var(--line);
@@ -907,10 +943,13 @@ font-size: 8px;
 color: #8899A8;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 ESTADO VAZIO
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .empty-state {
 min-height: 110px;
 background: white;
@@ -943,10 +982,13 @@ margin: 5px 0 0;
 line-height: 1.5;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 OPERAÇÕES
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .ops-layout {
 display: grid;
 grid-template-columns: minmax(0, 1fr) 260px;
@@ -1157,10 +1199,13 @@ color: #81919D;
 margin-top: 6px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 MODAL
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .modal {
 border: 0;
 border-radius: 13px;
@@ -1250,10 +1295,13 @@ background: #F5FAFD;
 color: var(--blue2);
 }
 
+<<<<<<< HEAD
 /* =========================================================
 LOADING / ACESSO NEGADO
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .loading-screen {
 min-height: 70vh;
 display: grid;
@@ -1293,6 +1341,7 @@ margin-top: 15px;
 text-align: center;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 RESPONSIVIDADE
 ========================================================= */
@@ -1300,6 +1349,10 @@ RESPONSIVIDADE
 @media (max-width: 850px) {
 
 
+=======
+@media (max-width: 850px) {
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero {
     padding: 38px 30px;
     grid-template-columns: 1fr 1fr;
@@ -1334,7 +1387,10 @@ RESPONSIVIDADE
 
 @media (max-width: 640px) {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-nav {
     height: 62px;
     padding: 0 17px;
@@ -1541,17 +1597,23 @@ font-size: 8px;
 color: #28769F;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 AZUL — IDENTIDADE VISUAL
 Override visual
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 :root {
 --navy: #003B70;
 --blue: #0072CE;
 --blue2: #0057A8;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 --sky: #EAF7FF;
 --sky-strong: #D5EEFC;
 
@@ -1565,6 +1627,7 @@ Override visual
 
 font-family: 'DM Sans', sans-serif;
 
+<<<<<<< HEAD
 
 }
 
@@ -1572,6 +1635,10 @@ font-family: 'DM Sans', sans-serif;
 BASE
 ========================================================= */
 
+=======
+}
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 body {
 background:
 linear-gradient(
@@ -1582,10 +1649,13 @@ linear-gradient(
 color: #123B5D;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 MARCA
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .brand {
 color: #003B70;
 font-family: 'Manrope', sans-serif;
@@ -1605,10 +1675,13 @@ transform: none;
 box-shadow: 0 5px 14px rgba(0, 114, 206, .25);
 }
 
+<<<<<<< HEAD
 /* =========================================================
 NAVBAR
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-nav {
 max-width: 100%;
 height: 76px;
@@ -1646,10 +1719,13 @@ background: #0057A8 !important;
 transform: translateY(-1px);
 }
 
+<<<<<<< HEAD
 /* =========================================================
 HERO
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero {
 max-width: 100%;
 min-height: 570px;
@@ -1657,7 +1733,10 @@ padding: 65px 7%;
 grid-template-columns: 1fr 1fr;
 gap: 50px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 background:
     linear-gradient(
         120deg,
@@ -1669,14 +1748,20 @@ background:
 position: relative;
 overflow: hidden;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .hero::before {
 content: "";
 position: absolute;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 width: 420px;
 height: 420px;
 
@@ -1687,14 +1772,20 @@ border-radius: 50%;
 
 background: rgba(0, 114, 206, .07);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .hero::after {
 content: "";
 position: absolute;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 width: 250px;
 height: 250px;
 
@@ -1705,7 +1796,10 @@ border-radius: 50%;
 
 background: rgba(0, 114, 206, .06);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .hero-copy {
@@ -1742,45 +1836,66 @@ margin-top: 32px;
 gap: 12px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 BOTÕES
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .button {
 border-radius: 24px;
 padding: 13px 22px;
 font-size: 11px;
 font-weight: 800;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 transition:
     transform .2s ease,
     box-shadow .2s ease,
     background .2s ease;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .button.primary {
 background: #0072CE;
 color: #FFFFFF;
 
+<<<<<<< HEAD
 
 box-shadow:
     0 7px 18px rgba(0, 114, 206, .25);
 
 
+=======
+box-shadow:
+    0 7px 18px rgba(0, 114, 206, .25);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .button.primary:hover {
 background: #0057A8;
 transform: translateY(-2px);
 
+<<<<<<< HEAD
 
 box-shadow:
     0 10px 22px rgba(0, 114, 206, .30);
 
 
+=======
+box-shadow:
+    0 10px 22px rgba(0, 114, 206, .30);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .button.secondary,
@@ -1788,11 +1903,17 @@ box-shadow:
 background: #FFFFFF;
 color: #0067B9;
 
+<<<<<<< HEAD
 
 border: 1px solid #BFDDEC;
 border-radius: 24px;
 
 
+=======
+border: 1px solid #BFDDEC;
+border-radius: 24px;
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .button.secondary:hover,
@@ -1801,10 +1922,13 @@ background: #EAF7FF;
 border-color: #0072CE;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 HERO — CARD DE VIAGEM
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero-art {
 min-height: 390px;
 position: relative;
@@ -1815,7 +1939,10 @@ z-index: 1;
 width: 380px;
 height: 380px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 right: 8%;
 top: 0;
 
@@ -1827,13 +1954,19 @@ background:
         transparent 72%
     );
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .art-card {
 width: min(390px, 92%);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 padding: 22px;
 
 border: 0;
@@ -1846,7 +1979,10 @@ box-shadow:
 
 transform: rotate(-1deg);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .art-header {
@@ -1875,7 +2011,10 @@ color: #0072CE;
 background: #0072CE;
 color: #FFFFFF;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 border: 0;
 border-radius: 22px;
 
@@ -1884,6 +2023,7 @@ padding: 11px 17px;
 box-shadow:
     0 8px 22px rgba(0, 114, 206, .25);
 
+<<<<<<< HEAD
 
 }
 
@@ -1891,17 +2031,27 @@ box-shadow:
 SEÇÃO "COMO FUNCIONA"
 ========================================================= */
 
+=======
+}
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .how {
 max-width: 100%;
 padding: 70px 7%;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 background: #FFFFFF;
 
 grid-template-columns: .8fr 1.2fr;
 gap: 70px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .how h2 {
@@ -1939,19 +2089,28 @@ font-size: 14px;
 color: #71889A;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 FOOTER
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-footer {
 max-width: 100%;
 padding: 28px 7%;
 
+<<<<<<< HEAD
 
 background: #003B70;
 color: #FFFFFF;
 
 
+=======
+background: #003B70;
+color: #FFFFFF;
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .public-footer .brand {
@@ -1971,10 +2130,13 @@ color: #0072CE;
 color: #A9C7DA;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 LOGIN
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .auth-wrap {
 background:
 radial-gradient(
@@ -1989,20 +2151,29 @@ transparent 45%
 border: 0;
 border-radius: 22px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 padding: 38px;
 
 box-shadow:
     0 20px 60px rgba(0, 59, 112, .12);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .auth-symbol {
 width: 48px;
 height: 48px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 border-radius: 50%;
 
 background: #E4F4FC;
@@ -2010,7 +2181,10 @@ color: #0072CE;
 
 margin-bottom: 22px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .auth-card h1 {
@@ -2040,11 +2214,17 @@ padding: 13px 14px;
 .customer-add input:focus {
 border-color: #0072CE;
 
+<<<<<<< HEAD
 
 box-shadow:
     0 0 0 3px #DFF2FC;
 
 
+=======
+box-shadow:
+    0 0 0 3px #DFF2FC;
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .auth-switch {
@@ -2061,10 +2241,13 @@ color: #55768D;
 border-radius: 10px;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 DASHBOARD
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell {
 background:
 linear-gradient(
@@ -2077,7 +2260,10 @@ linear-gradient(
 .app-sidebar {
 width: 250px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 background: #FFFFFF;
 border-right: 1px solid #DCEBF3;
 
@@ -2086,7 +2272,10 @@ padding: 27px 18px;
 box-shadow:
     3px 0 18px rgba(0, 59, 112, .035);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .app-sidebar .brand-mark {
@@ -2101,7 +2290,10 @@ letter-spacing: 1.4px;
 .side-link {
 padding: 13px 13px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 border-radius: 11px;
 
 color: #638096;
@@ -2110,7 +2302,10 @@ font-size: 11px;
 
 transition: .2s ease;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .side-link:hover {
@@ -2122,11 +2317,17 @@ color: #0072CE;
 background: #0072CE;
 color: #FFFFFF;
 
+<<<<<<< HEAD
 
 box-shadow:
     0 6px 15px rgba(0, 114, 206, .20);
 
 
+=======
+box-shadow:
+    0 6px 15px rgba(0, 114, 206, .20);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .user-avatar {
@@ -2134,10 +2335,13 @@ background: #DDF1FC;
 color: #0067B9;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 ÁREA PRINCIPAL
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .workspace {
 margin-left: 250px;
 padding: 34px clamp(24px, 5vw, 70px);
@@ -2158,21 +2362,30 @@ letter-spacing: -.7px;
 color: #71889A;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 PAINÉIS
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .panel {
 border: 0;
 border-radius: 16px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 background: #FFFFFF;
 
 box-shadow:
     0 7px 25px rgba(0, 59, 112, .06);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .section-heading h2,
@@ -2185,14 +2398,20 @@ font-size: 15px;
 background: #FFFFFF;
 border: 1px solid #D7E9F2;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 border-radius: 20px;
 
 color: #17628E;
 
 padding: 10px 15px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .flight-chips span:hover {
@@ -2200,10 +2419,13 @@ background: #EAF7FF;
 border-color: #0072CE;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 CARDS
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .update-list {
 gap: 18px;
 }
@@ -2212,7 +2434,10 @@ gap: 18px;
 border: 0;
 border-radius: 16px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 padding: 20px;
 
 box-shadow:
@@ -2220,17 +2445,26 @@ box-shadow:
 
 transition: .2s ease;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .update-card:hover {
 transform: translateY(-3px);
 
+<<<<<<< HEAD
 
 box-shadow:
     0 12px 28px rgba(0, 59, 112, .10);
 
 
+=======
+box-shadow:
+    0 12px 28px rgba(0, 59, 112, .10);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .update-meta b {
@@ -2242,6 +2476,7 @@ font-size: 13px;
 background: #E7F5FC;
 color: #0072CE;
 
+<<<<<<< HEAD
 
 border-radius: 20px;
 padding: 6px 10px;
@@ -2253,6 +2488,13 @@ padding: 6px 10px;
 ESTADO VAZIO
 ========================================================= */
 
+=======
+border-radius: 20px;
+padding: 6px 10px;
+
+}
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .empty-state {
 border: 2px dashed #C8E4F1;
 border-radius: 16px;
@@ -2267,22 +2509,31 @@ color: #0072CE;
 color: #315E7A;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 ORGANIZAÇÕES
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .org-card {
 border: 1px solid #DCEBF3;
 border-radius: 13px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 padding: 15px;
 
 background: #FFFFFF;
 
 transition: .2s ease;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .org-card:hover,
@@ -2290,34 +2541,49 @@ transition: .2s ease;
 border-color: #77B9DE;
 background: #F1FAFE;
 
+<<<<<<< HEAD
 
 box-shadow:
     0 6px 18px rgba(0, 114, 206, .08);
 
 
+=======
+box-shadow:
+    0 6px 18px rgba(0, 114, 206, .08);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .org-icon {
 width: 35px;
 height: 35px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 border-radius: 10px;
 
 background: #E4F4FC;
 color: #0072CE;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .org-card b {
 color: #31546D;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 INCIDENTES
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .ops-incident {
 border-top: 1px solid #E5EFF5;
 }
@@ -2334,19 +2600,28 @@ background: #E65353;
 color: #0072CE;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 MODAL
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .modal {
 border-radius: 20px;
 border: 0;
 
+<<<<<<< HEAD
 
 box-shadow:
     0 25px 80px rgba(0, 45, 85, .25);
 
 
+=======
+box-shadow:
+    0 25px 80px rgba(0, 45, 85, .25);
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 .modal h2 {
@@ -2357,10 +2632,13 @@ color: #003B70;
 background: rgba(0, 49, 88, .55);
 }
 
+<<<<<<< HEAD
 /* =========================================================
 ESTADOS
 ========================================================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .area-state {
 border: 1px solid #D8EAF3;
 border-radius: 15px;
@@ -2371,6 +2649,7 @@ background: #FFFFFF;
 color: #0072CE;
 }
 
+<<<<<<< HEAD
 /* =========================================================
 MOBILE
 ========================================================= */
@@ -2378,6 +2657,10 @@ MOBILE
 @media (max-width: 850px) {
 
 
+=======
+@media (max-width: 850px) {
+
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .hero {
     padding: 50px 30px;
 }
@@ -2390,12 +2673,18 @@ MOBILE
     width: 205px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
 
 @media (max-width: 640px) {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .public-nav {
     height: 65px;
     padding: 0 18px;
@@ -2476,18 +2765,24 @@ MOBILE
   background: #002B5C;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    ÁREA INTERNA
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .workspace {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 
 /* TÍTULO PRINCIPAL */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .workspace-top h1 {
   font-size: 36px;
   line-height: 1.15;
@@ -2506,11 +2801,14 @@ MOBILE
   font-weight: 800;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    SIDEBAR
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .sidebar-label {
   font-size: 12px;
   color: #0074D9;
@@ -2543,11 +2841,14 @@ MOBILE
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    TÍTULOS DAS SEÇÕES
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .section-heading h2,
 .app-shell .customer-add h2,
 .app-shell .ops-main .section-heading h2 {
@@ -2563,11 +2864,14 @@ MOBILE
   line-height: 1.6;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    CHIPS DE VOOS
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .flight-chips span {
   font-size: 15px;
   padding: 12px 16px;
@@ -2577,11 +2881,14 @@ MOBILE
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    CARDS DE ATUALIZAÇÃO
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .update-meta b {
   font-size: 16px;
   color: #002B5C;
@@ -2607,11 +2914,14 @@ MOBILE
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    BOTÕES
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .button.primary {
   background: linear-gradient(
     135deg,
@@ -2637,11 +2947,14 @@ MOBILE
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    ESTADO VAZIO
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .empty-state b {
   font-size: 16px;
   color: #002B5C;
@@ -2651,11 +2964,14 @@ MOBILE
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    ÁREA OPERACIONAL
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .ops-layout {
   font-size: 17px;
 }
@@ -2692,11 +3008,14 @@ MOBILE
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    OCORRÊNCIAS
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .ops-incident {
   padding: 19px 5px;
   border-left: 4px solid #0074D9;
@@ -2716,11 +3035,14 @@ MOBILE
   line-height: 1.7;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    HISTÓRICO
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .area-history p {
   font-size: 14px;
 }
@@ -2735,11 +3057,14 @@ MOBILE
   font-weight: 800;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    LATERAL OPERACIONAL
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 .app-shell .ops-aside h2 {
   font-size: 22px;
   color: #002B5C;
@@ -2759,11 +3084,14 @@ MOBILE
   line-height: 1.6;
 }
 
+<<<<<<< HEAD
 
 /* =========================
    MOBILE
    ========================= */
 
+=======
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 @media (max-width: 640px) {
 
   .app-shell .workspace-top h1 {
@@ -2794,6 +3122,7 @@ MOBILE
   }
 }
 
+<<<<<<< HEAD
 /* =========================================================
    CENTRO DE INTELIGÊNCIA OPERACIONAL
    ========================================================= */
@@ -3230,4 +3559,782 @@ select {
   .analytics-panel, .impact-panel, .metric-card, .analytics-intro { break-inside: avoid; box-shadow: none !important; }
   .analytics-page { color: #173653; }
   .report-table { font-size: 9px; }
+=======
+button, input, textarea, select {
+  font-size: 16px;
+}
+
+.eyebrow {
+  font-size: 12px;
+}
+
+.hero h1 {
+  font-size: clamp(34px, 4.5vw, 58px);
+}
+
+.hero-copy > p {
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.button {
+  gap: 8px;
+  font-size: 15px;
+}
+
+.how h2 {
+  font-size: clamp(30px, 3.2vw, 44px);
+}
+
+.how > div:first-child > p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.how-steps h3 {
+  font-size: 20px;
+}
+
+.how-steps article > span {
+  font-size: 20px;
+}
+
+img, video, iframe, svg {
+  max-width: 100%;
+}
+
+.hero-copy,
+.hero-art,
+.ops-main,
+.ops-aside,
+.panel,
+.update-card,
+.org-card {
+  min-width: 0;
+}
+
+.public-nav,
+.public-footer,
+.hero,
+.how {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .public-nav,
+  .public-footer,
+  .hero,
+  .how {
+    max-width: 1400px;
+  }
+
+  .workspace {
+    max-width: 1600px;
+    margin-left: 235px;
+    margin-right: auto;
+  }
+
+  .hero {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .public-nav {
+    padding: 0 24px;
+  }
+
+  .public-nav nav {
+    gap: 18px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 0.9fr;
+    padding: 42px 34px 48px;
+  }
+
+  .hero-art {
+    min-height: 350px;
+  }
+
+  .art-card {
+    width: min(390px, 100%);
+  }
+
+  .how {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding: 48px 34px;
+  }
+
+  .how > div:first-child > p {
+    max-width: 700px;
+  }
+
+  .how-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .workspace {
+    margin-left: 205px;
+    padding: 26px 28px 45px;
+    max-width: none;
+  }
+
+  .app-sidebar {
+    width: 205px;
+  }
+
+  .ops-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ops-aside {
+    order: -1;
+  }
+}
+
+@media (max-width: 850px) {
+  .public-nav {
+    padding: 0 20px;
+  }
+
+  .public-nav nav {
+    gap: 12px;
+  }
+
+  .public-nav nav a:not(.nav-login) {
+    font-size: 11px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 44px 30px 34px;
+  }
+
+  .hero-copy {
+    max-width: 700px;
+  }
+
+  .hero-art {
+    min-height: 330px;
+    margin-top: 15px;
+  }
+
+  .floating-chip {
+    right: 5%;
+  }
+
+  .how {
+    padding: 44px 30px;
+  }
+
+  .workspace-top {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .customer-add {
+    align-items: stretch;
+  }
+
+  .customer-add > div {
+    width: 100%;
+  }
+
+  .customer-add form {
+    width: 100%;
+  }
+
+  .customer-add input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .update-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .org-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .form-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    width: min(92vw, 620px);
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    min-width: 0;
+    overflow-x: hidden;
+  }
+
+  .public-nav {
+    height: auto;
+    min-height: 64px;
+    padding: 10px 16px;
+    gap: 10px;
+  }
+
+  .public-nav .brand {
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .public-nav .brand-logo {
+    width: 34px !important;
+    height: auto;
+  }
+
+  .public-nav nav {
+    gap: 8px;
+    margin-left: auto;
+  }
+
+  .public-nav nav > a:first-child {
+    display: none;
+  }
+
+  .public-nav nav a {
+    font-size: 11px;
+  }
+
+  .nav-login {
+    padding: 8px 11px;
+    border-radius: 7px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 38px 20px 30px;
+    gap: 20px;
+  }
+
+  .hero h1 {
+    margin: 14px 0;
+    font-size: clamp(32px, 10vw, 43px);
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+  }
+
+  .hero-copy > p {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 22px;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .hero-note {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .hero-art {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .art-glow {
+    width: 260px;
+    height: 260px;
+  }
+
+  .art-card {
+    width: min(100%, 360px);
+    padding: 15px;
+    transform: rotate(-1deg);
+  }
+
+  .art-card h3 {
+    font-size: 18px;
+  }
+
+  .art-card h3 small {
+    font-size: 14px;
+  }
+
+  .art-card > p {
+    font-size: 15px;
+  }
+
+  .art-message p {
+    font-size: 14px;
+  }
+
+  .floating-chip {
+    bottom: 4px;
+    right: 2px;
+    font-size: 9px;
+    padding: 8px 10px;
+  }
+
+  .how {
+    grid-template-columns: 1fr;
+    padding: 40px 20px 45px;
+    gap: 30px;
+  }
+
+  .how h2 {
+    font-size: 30px;
+  }
+
+  .how > div:first-child > p {
+    font-size: 15px;
+  }
+
+  .how-steps {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .how-steps article {
+    padding-left: 14px;
+  }
+
+  .how-steps h3 {
+    font-size: 19px;
+  }
+
+  .how-steps p {
+    font-size: 14px;
+  }
+
+  .public-footer {
+    padding: 18px 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .public-footer > span {
+    font-size: 12px;
+  }
+
+  .auth-wrap {
+    min-height: calc(100vh - 64px);
+    padding: 25px 15px 40px;
+  }
+
+  .auth-card {
+    width: 100%;
+    padding: 26px 20px;
+    border-radius: 12px;
+    box-shadow: 0 14px 35px rgba(0, 59, 112, .12);
+  }
+
+  .auth-card h1 {
+    font-size: 23px;
+  }
+
+  .auth-card > p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .auth-card label {
+    font-size: 14px;
+  }
+
+  .auth-card input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .app-shell {
+    min-height: 100vh;
+    padding-bottom: 76px;
+  }
+
+  .app-sidebar {
+    position: fixed;
+    inset: auto 0 0 0;
+    width: 100%;
+    height: 68px;
+    min-height: 68px;
+    padding: 7px 10px;
+    border-right: 0;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -5px 20px rgba(0, 59, 112, .08);
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    z-index: 50;
+  }
+
+  .app-sidebar .brand,
+  .app-sidebar .sidebar-label,
+  .sidebar-user {
+    display: none;
+  }
+
+  .app-sidebar nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .side-link {
+    flex: 1;
+    max-width: 210px;
+    min-width: 0;
+    padding: 9px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px !important;
+    line-height: 1.2;
+    border-radius: 8px;
+    white-space: normal;
+  }
+
+  .side-link.selected {
+    box-shadow: inset 0 3px 0 var(--blue);
+  }
+
+  .workspace {
+    width: 100%;
+    max-width: none;
+    margin-left: 0 !important;
+    padding: 22px 16px 30px;
+  }
+
+  .workspace-top {
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 17px;
+    gap: 15px;
+  }
+
+  .workspace-top h1,
+  .app-shell .workspace-top h1 {
+    font-size: 27px;
+  }
+
+  .workspace-top p,
+  .app-shell .workspace-top p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .workspace-top .outline-button {
+    align-self: flex-start;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-heading h2,
+  .app-shell .section-heading h2,
+  .app-shell .customer-add h2,
+  .app-shell .ops-main .section-heading h2 {
+    font-size: 19px;
+  }
+
+  .section-heading p,
+  .app-shell .section-heading p,
+  .app-shell .customer-add p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .customer-add {
+    padding: 15px;
+    gap: 14px;
+  }
+
+  .customer-add form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .customer-add input,
+  .customer-add .button {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .flight-chips {
+    width: 100%;
+  }
+
+  .flight-chips span {
+    flex: 1 1 auto;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .update-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .update-card {
+    padding: 14px;
+  }
+
+  .app-shell .update-meta b {
+    font-size: 15px;
+  }
+
+  .app-shell .update-meta span {
+    font-size: 11px;
+  }
+
+  .app-shell .update-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .app-shell .update-card > small {
+    font-size: 12px;
+  }
+
+  .app-shell .public-status {
+    font-size: 11px;
+  }
+
+  .ops-layout {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .ops-main {
+    width: 100%;
+  }
+
+  .ops-aside {
+    width: 100%;
+    order: -1;
+  }
+
+  .org-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .org-card {
+    padding: 14px;
+  }
+
+  .org-card b {
+    font-size: 14px;
+  }
+
+  .org-card small {
+    font-size: 12px;
+  }
+
+  .org-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .board {
+    margin-top: 15px;
+  }
+
+  .board .section-heading {
+    flex-direction: column;
+  }
+
+  .compact {
+    width: 100%;
+  }
+
+  .ops-incident {
+    padding: 15px 3px;
+  }
+
+  .app-shell .ops-incident b {
+    font-size: 14px;
+  }
+
+  .app-shell .ops-incident small {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .app-shell .ops-incident p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .area-history {
+    padding-left: 8px;
+  }
+
+  .app-shell .area-history p {
+    font-size: 12px;
+  }
+
+  .app-shell .area-history time {
+    font-size: 10px;
+  }
+
+  .incident-actions {
+    gap: 8px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-shell .text-action {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .modal {
+    width: calc(100vw - 24px);
+    max-width: none;
+    max-height: calc(100vh - 24px);
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .modal form {
+    gap: 14px;
+  }
+
+  .modal h2 {
+    font-size: 22px;
+  }
+
+  .modal > p,
+  .modal form > p:not(.form-error) {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .form-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .area-picker {
+    max-height: 180px;
+    overflow-y: auto;
+  }
+
+  .empty-state {
+    min-height: 130px;
+    padding: 20px 15px;
+  }
+
+  .empty-state b,
+  .app-shell .empty-state b {
+    font-size: 14px;
+  }
+
+  .empty-state p,
+  .app-shell .empty-state p {
+    font-size: 13px;
+  }
+
+  .denied {
+    padding: 25px 15px;
+  }
+
+  .denied .auth-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .public-nav .brand {
+    font-size: 12px;
+  }
+
+  .public-nav .brand-logo {
+    width: 30px !important;
+  }
+
+  .nav-login {
+    padding: 7px 9px;
+    font-size: 10px;
+  }
+
+  .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero h1 {
+    font-size: 31px;
+  }
+
+  .hero-copy > p {
+    font-size: 15px;
+  }
+
+  .workspace {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .side-link {
+    font-size: 11px !important;
+  }
+
+  .auth-card {
+    padding: 22px 16px;
+  }
+}
+
+@media (min-width: 851px) {
+
+  .public-nav,
+  .hero,
+  .how,
+  .public-footer {
+    width: 100%;
+    max-width: none;
+  }
+
+  .app-shell .workspace {
+    width: calc(100% - 250px);
+    max-width: none;
+    margin-left: 250px;
+    padding-left: clamp(28px, 4vw, 70px);
+    padding-right: clamp(28px, 4vw, 70px);
+  }
+
+  .app-shell .update-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .app-shell .org-list {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+
+@media (min-width: 851px) and (max-width: 1100px) {
+  .app-shell .workspace {
+    width: calc(100% - 205px);
+    margin-left: 205px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+>>>>>>> 715a347b7451b6a9039b20eac5a5937a3193b0ee
 }
