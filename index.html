@@ -1,86 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0072CE">
-  <meta name="description" content="O Azul em Sintonia conecta equipes e mantém passageiros informados durante ocorrências operacionais.">
-  <title>Azul em Sintonia</title>
-
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0072CE">
+    <meta name="description" content="O Azul em Sintonia conecta equipes e mantém passageiros informados durante ocorrências operacionais.">
+    <title>Azul em Sintonia</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <header class="public-nav">
+        <a class="brand" href="#/" data-route="/">
+            <img
+                class="brand-logo"
+                src="foto/logo.png"
+                alt="Logo Azul"
+                width="40"
+                height="40"
+            >
+            <span>
+                Azul
+                <b>em Sintonia</b>
+            </span>
+        </a>
 
-  <header class="public-nav">
+        <nav aria-label="Navegação principal">
+            <a href="#como-funciona">Como funciona?</a>
+            <a href="#/operacao/login" data-route="/operacao/login">
+                Acesso operacional
+            </a>
+            <a class="nav-login" href="#/login" data-route="/login">
+                Entrar
+            </a>
+        </nav>
+    </header>
 
-    <a class="brand" href="#/" data-route="/">
-      
-      <img 
-        class="brand-logo" 
-        src="foto/logo.png" 
-        alt="" style="width: 40px;"
-      >
+    <main id="app" aria-live="polite"></main>
 
-      <span>
-        Azul
-        <b>em Sintonia</b>
-      </span>
+    <footer class="public-footer">
+        <a class="brand" href="#/" data-route="/">
+            <img
+                class="brand-logo"
+                src="foto/logo.png"
+                alt="Logo Azul"
+                width="40"
+                height="40"
+            >
+            <span>
+                Azul
+                <b>em Sintonia</b>
+            </span>
+        </a>
 
-    </a>
+        <span>Projeto acadêmico realizado pela aluna Manuela de Britto</span>
+    </footer>
 
-    <nav>
-      <a href="#como-funciona">Como funciona?</a>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
 
-      <a 
-        href="#/operacao/login" 
-        data-route="/operacao/login"
-      >
-        Acesso operacional
-      </a>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 
-      <a 
-        class="nav-login" 
-        href="#/login" 
-        data-route="/login"
-      >
-        Entrar
-      </a>
-    </nav>
+    <script>
+        window.addEventListener("load", function () {
+            if (window.VLibras && window.VLibras.Widget) {
+                new window.VLibras.Widget("https://vlibras.gov.br/app");
+            }
+        });
+    </script>
 
-  </header>
-
-  <main id="app" aria-live="polite"></main>
-
-  <footer class="public-footer">
-
-    <a 
-      class="brand" 
-      href="#/" 
-      data-route="/"
-    >
-
-      <img 
-        class="brand-logo" 
-        src="foto/logo.png" 
-        alt="" style="width: 40px;"
-      >
-
-      <span>
-        Azul
-        <b>em Sintonia</b>
-      </span>
-
-    </a>
-
-    <span>Projeto acadêmico</span>
-
-  </footer>
-
-  <script 
-    type="module" 
-    src="app.js">
-  </script>
+    <script type="module" src="./app.js"></script>
 </body>
 </html>

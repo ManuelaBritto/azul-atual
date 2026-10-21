@@ -3267,3 +3267,87 @@ select {
   .art-card { padding: 14px; }
   .public-footer { padding: 18px; gap: 12px; flex-wrap: wrap; }
 }
+
+/* Ajuste pontual de legibilidade */
+.public-nav nav,
+.sidebar-label,
+.side-link,
+.sidebar-user b,
+.sidebar-user small,
+.workspace-top p,
+.section-heading p,
+.customer-add p,
+.flight-chips span,
+.update-meta span,
+.update-card > small,
+.public-status,
+.empty-state p,
+.org-group h3,
+.org-card small,
+.ops-incident small,
+.ops-incident p,
+.area-history p,
+.area-history time,
+.text-action,
+.ops-aside > p,
+.permission-note b,
+.permission-note span,
+.analytics-intro p,
+.analytics-panel-heading p,
+.impact-header p,
+.metric-label,
+.metric-card small,
+.chart-bar-row > span,
+.chart-bar-row > b,
+.impact-item p,
+.impact-item small,
+.recent-incidents small,
+.quick-actions a,
+.report-table th,
+.report-table td,
+.report-filter,
+.radar-flight-code,
+.radar-flight-card p,
+.radar-flight-card small,
+.muted-copy,
+.form-alert,
+.auth-note,
+.auth-switch,
+.form-error,
+.area-picker label,
+.area-picker legend,
+.public-compose legend,
+.loading-screen p {
+  font-size: 13px;
+}
+
+.eyebrow,
+.art-header,
+.art-line,
+.floating-chip,
+.data-stamp,
+.demo-label,
+.radar-count,
+.area-state,
+.area-state b {
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .public-nav nav,
+  .sidebar-user small,
+  .workspace-top p,
+  .section-heading p,
+  .customer-add p,
+  .update-card > small,
+  .org-card small,
+  .ops-incident small,
+  .area-history time,
+  .permission-note span,
+  .metric-card small,
+  .report-table th,
+  .report-table td,
+  .radar-flight-card small {
+    font-size: 12px;
+  }
+}
